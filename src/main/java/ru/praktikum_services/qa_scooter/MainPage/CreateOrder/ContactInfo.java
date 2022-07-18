@@ -6,79 +6,79 @@ import ru.praktikum_services.qa_scooter.MainPage.MainPage;
 
 public class ContactInfo extends MainPage {
     private static final String MAIN_PAGE_URL = "https://qa-scooter.praktikum-services.ru/";
-    private final By AcceptCookieButton = By.className("App_CookieButton__3cvqF");
-    private final By CreateOrderButtonHeader = By.className("Button_Button__ra12g");
-    private final By CreateOrderButtonPage = By.className("Home_FinishButton__1_cWm");
-    private final By NameInput = By.xpath(".//input[@placeholder='* Имя']");
-    private final By SurnameInput = By.xpath(".//input[@placeholder='* Фамилия']");
-    private final By AddressInput = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
-    private final By MetroStationInput = By.xpath(".//input[@placeholder='* Станция метро']");
-    private final By EnteredMetroStation = By.className("Order_Circle__3uWFr");
-    private final By PhoneInput = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
-    private final By NextButton = By.cssSelector(".Button_Button__ra12g.Button_Middle__1CSJM");
+    private final By ACCEPT_COOKIE_BUTTON = By.className("App_CookieButton__3cvqF");
+    private final By CREATE_ORDER_BUTTON_HEADER = By.className("Button_Button__ra12g");
+    private final By CREATE_ORDER_BUTTON_PAGE = By.className("Home_FinishButton__1_cWm");
+    private final By NAME_INPUT = By.xpath(".//input[@placeholder='* Имя']");
+    private final By SURNAME_INPUT = By.xpath(".//input[@placeholder='* Фамилия']");
+    private final By ADDRESS_INPUT = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
+    private final By METRO_STATION_INPUT = By.xpath(".//input[@placeholder='* Станция метро']");
+    private final By ENTERED_METRO_STATION = By.className("Order_Circle__3uWFr");
+    private final By PHONE_INPUT = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
+    private final By NEXT_BUTTON = By.cssSelector(".Button_Button__ra12g.Button_Middle__1CSJM");
 
     public ContactInfo(WebDriver driver) {
         super(driver);
     }
 
     public ContactInfo open() {
-        driver.get(MAIN_PAGE_URL);
+        DRIVER.get(MAIN_PAGE_URL);
         return this;
     }
 
     public ContactInfo clickOnAcceptCookieButton() {
-        driver.findElement(AcceptCookieButton).click();
+        DRIVER.findElement(ACCEPT_COOKIE_BUTTON).click();
         return this;
     }
 
     public ContactInfo clickOnCreateOrderButtonHeader() {
-        driver.findElement(CreateOrderButtonHeader).click();
+        DRIVER.findElement(CREATE_ORDER_BUTTON_HEADER).click();
         return this;
     }
 
     public ContactInfo clickOnCreateOrderButtonPage() {
-        driver.findElement(CreateOrderButtonPage).click();
+        DRIVER.findElement(CREATE_ORDER_BUTTON_PAGE).click();
         return this;
     }
 
     public ContactInfo enterName(String name) {
-        driver.findElement(NameInput).sendKeys(name);
+        DRIVER.findElement(NAME_INPUT).sendKeys(name);
         return this;
     }
 
     public ContactInfo enterSurname(String surname) {
-        driver.findElement(SurnameInput).sendKeys(surname);
+        DRIVER.findElement(SURNAME_INPUT).sendKeys(surname);
         return this;
     }
 
     public ContactInfo enterAddress(String address) {
-        driver.findElement(AddressInput).sendKeys(address);
+        DRIVER.findElement(ADDRESS_INPUT).sendKeys(address);
         return this;
     }
 
     public ContactInfo openMetroStationList() {
-        driver.findElement(MetroStationInput).click();
+        DRIVER.findElement(METRO_STATION_INPUT).click();
         return this;
     }
 
     public ContactInfo enterMetroStation(String metroStation) {
-        driver.findElement(MetroStationInput).sendKeys(metroStation);
+        DRIVER.findElement(METRO_STATION_INPUT).sendKeys(metroStation);
         return this;
     }
 
     public ContactInfo selectChosenMetroStation() {
-        driver.findElement(EnteredMetroStation).click();
+        DRIVER.findElement(ENTERED_METRO_STATION).click();
         return this;
     }
 
     public ContactInfo enterPhone(String phone) {
-        driver.findElement(PhoneInput).sendKeys(phone);
+        DRIVER.findElement(PHONE_INPUT).sendKeys(phone);
         return this;
     }
 
     public RentInfo clickOnNextButton() {
-        driver.findElement(NextButton).click();
-        return new RentInfo(driver);
+        DRIVER.findElement(NEXT_BUTTON).click();
+        return new RentInfo(DRIVER);
     }
 
 }

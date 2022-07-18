@@ -10,31 +10,31 @@ import java.time.Duration;
 
 public class FAQ extends MainPage {
     private static final String MAIN_PAGE_URL = "https://qa-scooter.praktikum-services.ru/";
-    private final By FAQHeader = By.className("Home_SubHeader__zwi_E");
-    private final By AcceptCookieButton = By.className("App_CookieButton__3cvqF");
+    private final By FAQ_HEADER = By.className("Home_SubHeader__zwi_E");
+    private final By ACCEPT_COOKIE_BUTTON = By.className("App_CookieButton__3cvqF");
 
     public FAQ(WebDriver driver) {
         super(driver);
     }
 
     public FAQ open() {
-        driver.get(MAIN_PAGE_URL);
+        DRIVER.get(MAIN_PAGE_URL);
         return this;
     }
 
     public FAQ clickOnAcceptCookieButton() {
-        driver.findElement(AcceptCookieButton).click();
+        DRIVER.findElement(ACCEPT_COOKIE_BUTTON).click();
         return this;
     }
 
     public FAQ waitUntilFAQIsVisible() {
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.visibilityOfElementLocated(FAQHeader));
+        new WebDriverWait(DRIVER, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfElementLocated(FAQ_HEADER));
         return this;
     }
 
     public FAQ scrollToFAQ() {
-        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", driver.findElement(FAQHeader));
+        ((JavascriptExecutor) DRIVER).executeScript("arguments[0].scrollIntoView();", DRIVER.findElement(FAQ_HEADER));
         return this;
     }
 
@@ -74,7 +74,7 @@ public class FAQ extends MainPage {
     }
 
     public FAQ clickOnQuestion(String question) {
-        driver.findElement(getQuestionLocator(getQuestionNumberByText(question))).click();
+        DRIVER.findElement(getQuestionLocator(getQuestionNumberByText(question))).click();
         return this;
     }
 
@@ -83,13 +83,13 @@ public class FAQ extends MainPage {
     }
 
     public FAQ waitUntilAnswerIsVisible(String question) {
-        new WebDriverWait(driver, Duration.ofSeconds(10))
+        new WebDriverWait(DRIVER, Duration.ofSeconds(10))
                 .until(ExpectedConditions.visibilityOfElementLocated(getAnswerLocator(getQuestionNumberByText(question))));
         return this;
     }
 
     public String getAnswer(String question) {
-        return driver.findElement(getAnswerLocator(getQuestionNumberByText(question))).getText();
+        return DRIVER.findElement(getAnswerLocator(getQuestionNumberByText(question))).getText();
     }
 
 }

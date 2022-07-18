@@ -9,12 +9,12 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
 public class FAQTestWrongAnswers extends MainPageChromeSettings {
-    private final String question;
-    private final String expectedAnswer;
+    private final String QUESTION;
+    private final String EXPECTED_ANSWER;
 
     public FAQTestWrongAnswers(String question, String expectedAnswer) {
-        this.question = question;
-        this.expectedAnswer = expectedAnswer;
+        this.QUESTION = question;
+        this.EXPECTED_ANSWER = expectedAnswer;
     }
 
     @Parameterized.Parameters
@@ -38,11 +38,11 @@ public class FAQTestWrongAnswers extends MainPageChromeSettings {
                 .clickOnAcceptCookieButton()
                 .waitUntilFAQIsVisible()
                 .scrollToFAQ()
-                .clickOnQuestion(question)
-                .waitUntilAnswerIsVisible(question)
-                .getAnswer(question);
+                .clickOnQuestion(QUESTION)
+                .waitUntilAnswerIsVisible(QUESTION)
+                .getAnswer(QUESTION);
 
-        assertEquals("Wrong answer was received", expectedAnswer, actualAnswer);
+        assertEquals("Wrong answer was received", EXPECTED_ANSWER, actualAnswer);
     }
 
 }
