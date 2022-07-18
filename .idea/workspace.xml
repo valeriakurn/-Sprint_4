@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="07dfcfee-4fc1-4fce-b258-4980740e4904" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/CreateOrder/ContactInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/CreateOrder/ContactInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/CreateOrder/RentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/CreateOrder/RentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/FAQ/FAQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/FAQ/FAQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/praktikum_services/qa_scooter/MainPage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/praktikum_services/qa_scooter/MainPage/FAQ/FAQTestCorrectAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/praktikum_services/qa_scooter/MainPage/FAQ/FAQTestCorrectAnswers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/praktikum_services/qa_scooter/MainPage/FAQ/FAQTestWrongAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/praktikum_services/qa_scooter/MainPage/FAQ/FAQTestWrongAnswers.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BwaeunSN0shqr0doxC54JHLVCx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.praktikum_services.qa_scooter.MainPage.FAQ" />
+      <recent name="ru.praktikum_services.qa_scooter.MainPage" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.praktikum_services.qa_scooter.MainPage.CreateOrder" />
+      <recent name="ru.praktikum_services.qa_scooter.MainPage.FAQ" />
+      <recent name="ru.praktikum_services.qa_scooter.MainPage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CreateOrderFromPageTest.createOrderFromPage">
+    <configuration name="CreateOrderFromHeaderTest.createOrderFromHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder" />
+      <option name="MAIN_CLASS_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.CreateOrderFromHeaderTest" />
+      <option name="METHOD_NAME" value="createOrderFromHeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderFromHeaderTest.createOrderFromHeaderNextMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder" />
+      <option name="MAIN_CLASS_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.CreateOrderFromHeaderTest" />
+      <option name="METHOD_NAME" value="createOrderFromHeaderNextMonth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderFromPageTest.createOrderFromHeader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder" />
+      <option name="MAIN_CLASS_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.CreateOrderFromPageTest" />
+      <option name="METHOD_NAME" value="createOrderFromHeader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderFromPageTest.createOrderFromHeaderNextMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder" />
+      <option name="MAIN_CLASS_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.CreateOrderFromPageTest" />
+      <option name="METHOD_NAME" value="createOrderFromHeaderNextMonth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderFromPageTest.createOrderFromPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder" />
+      <option name="MAIN_CLASS_NAME" value="ru.praktikum_services.qa_scooter.MainPage.CreateOrder.CreateOrderFromPageTest" />
+      <option name="METHOD_NAME" value="createOrderFromPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreateOrderFromPageTest.createOrderFromPage" />
+        <item itemvalue="JUnit.CreateOrderFromHeaderTest.createOrderFromHeader" />
+        <item itemvalue="JUnit.CreateOrderFromPageTest.createOrderFromHeaderNextMonth" />
+        <item itemvalue="JUnit.CreateOrderFromHeaderTest.createOrderFromHeaderNextMonth" />
+        <item itemvalue="JUnit.CreateOrderFromPageTest.createOrderFromHeader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07dfcfee-4fc1-4fce-b258-4980740e4904" name="Changes" comment="" />
+      <created>1657819706270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657819706270</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
